@@ -31,4 +31,4 @@ echo "d = $d<br>e = $e";
 ===  identico
 */
 
-?>
+?> 
