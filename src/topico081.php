@@ -40,5 +40,13 @@ $matriz=[
 echo"<br>";
 //60
 
+$bd=[
+    ["id"=>1,"nome"=>"Bete","curso"=>"TADS"],["id"=>2,"nome"=>"Cleide","curso"=>"TABD"],
+    ["id"=>3,"nome"=>"Beto","curso"=>"TJD"],
+];
 
-?>
+echo"<br>".$bd[1]["id"];
+echo"<br>".$bd[2]["curso"];
+echo"<br>".$bd[0]["nome"];
+
+?> 
