@@ -40,9 +40,9 @@ $multi=[
     [40,50,60],
     [70,80,90]
 ];
-for($i=0;$i<3;$i++){
-    for($j=0;$j<3;$j++){
-      echo $multi[$i][$j]." ";
+for($i=0;$i<3;$i++){//linha
+    for($j=0;$j<3;$j++){//coluna
+      echo $multi[$i][$j]." ";// $multi[$i][$j] é a forma de acessar os elementos de um array multidimensional, no caso do exemplo, o array é uma matriz 3x3, onde $i representa a linha e $j representa a coluna, então $multi[$i][$j] acessa o elemento da linha $i e coluna $j da matriz. O resultado do exemplo será a impressão dos números de 10 a 90, organizados em 3 linhas e 3 colunas.
     }
     echo "<br>";
 }           
