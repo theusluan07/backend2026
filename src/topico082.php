@@ -15,7 +15,7 @@ $uf=["SP","RJ","ES","MG"];
 echo "<pre>";print_r($uf);echo "</pre>";
 array_push($uf, "TO");
 array_push($uf, "BA");
-array_push($uf, "RN");
+array_push($uf, "RN"); 
 array_push($uf, "PR");//array_push é responsável por adicionar um elemento no final do array, no caso do exemplo, os elementos "TO", "BA", "RN" e "PR" foram adicionados no final do array
 array_pop($uf);//array_pop é responsável por remover o último elemento do array, no caso do exemplo, o último elemento é "PR"
 echo "<pre>";print_r($uf);echo "</pre>";
